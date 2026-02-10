@@ -24,7 +24,7 @@ export const projects: Project[] = [
     },
     {
         id: '3',
-        title: 'Infoproduto Masterclass',
+        title: 'Lacrei Saúde',
         description: 'Plataforma web voltada para a inclusão da comunidade LGBTQIAPN+ no sistema de saúde.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/YvG166g.png',
@@ -35,7 +35,7 @@ export const projects: Project[] = [
 
     {
         id: '4',
-        title: 'Landing Page',
+        title: 'Invisalign',
         description: 'Landing page desenvolvida para promover o tratamento ortodôntico com Invisalign, destacando alinhadores invisíveis modernos e foco em geração de leads.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/ZbS7MxZ.png',
@@ -46,7 +46,7 @@ export const projects: Project[] = [
 
     {
         id: '5',
-        title: 'Landing Page',
+        title: 'Implantes Dentários',
         description: 'Landing page promovendo serviços de implantes dentários, com foco em atração de pacientes e otimização de conversões.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/YANHptu.png',
@@ -57,7 +57,7 @@ export const projects: Project[] = [
 
     {
         id: '6',
-        title: 'Landing Page',
+        title: 'Harmonização Orofacial (HOF)',
         description: 'Landing page focada em Harmonização Orofacial (HOF) com layout profissional, comunicação clara e estrutura otimizada para conversão de leads.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/AFpaloL.png',
