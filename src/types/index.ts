@@ -1,10 +1,11 @@
 export interface Project {
+  siteUrl: string;
   id: string;
   title: string;
   description: string;
   imageUrl: string;
   tags: string[];
-  category: 'E-commerce' | 'Health' | 'Infoproducts' | 'Real Estate';
+  category: string;
 }
 
 export interface Feature {

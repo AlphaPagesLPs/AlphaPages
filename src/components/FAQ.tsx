@@ -61,9 +61,11 @@ export default function FAQ() {
         </div>
 
         <div className="mt-16 text-center">
+          <a href="https://api.whatsapp.com/send?phone=5581988548132&text=Gostaria%20de%20tirar%20mais%20duvidas">
           <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg shadow-yellow-500/20">
             AINDA TEM DÚVIDAS? FALE CONOSCO
           </button>
+          </a>
         </div>
       </div>
     </section>

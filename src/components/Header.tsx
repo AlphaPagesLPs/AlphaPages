@@ -34,9 +34,11 @@ export default function Header() {
             <button onClick={() => scrollToSection('faq')} className="text-gray-300 hover:text-yellow-400 transition-colors">
               FAQ
             </button>
-            <button onClick={() => scrollToSection('hero')} className="bg-yellow-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-yellow-300 transition-all transform hover:scale-105">
+            <a href="https://api.whatsapp.com/send?phone=5581988548132&text=Gostaria%20de%20mais%20informações%20sobre%20as%20landing%20pages" target='_blank'>
+            <button className="bg-yellow-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-yellow-300 transition-all transform hover:scale-105">
               QUERO UM SITE DE ALTA CONVERSÃO
             </button>
+            </a>
           </nav>
 
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-white">
@@ -58,9 +60,11 @@ export default function Header() {
             <button onClick={() => scrollToSection('faq')} className="block w-full text-left text-gray-300 hover:text-yellow-400 transition-colors">
               FAQ
             </button>
-            <button onClick={() => scrollToSection('hero')} className="block w-full bg-yellow-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-yellow-300 transition-all">
+            <a href="https://api.whatsapp.com/send?phone=5581988548132&text=Gostaria%20de%20mais%20informações%20sobre%20as%20landing%20pages" target='_blank'>
+            <button className="block w-full bg-yellow-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-yellow-300 transition-all">
               QUERO UM SITE DE ALTA CONVERSÃO
             </button>
+            </a>
           </nav>
         )}
       </div>

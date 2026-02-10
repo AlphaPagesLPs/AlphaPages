@@ -8,6 +8,7 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
     return (
         <div className="group relative rounded-xl overflow-hidden bg-gray-900 border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+            <a href={project.siteUrl} target='_blank'>
             <div className="w-full overflow-hidden relative bg-gray-800">
                 <img
                     src={project.imageUrl}
@@ -21,11 +22,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                     </span>
                 </div>
             </div>
-
-            <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>
-                <p className="text-gray-400 text-sm">{project.description}</p>
-            </div>
+            
+                <div className="p-6">
+                    <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>
+                    <p className="text-gray-400 text-sm">{project.description}</p>
+                </div>
+            </a>
         </div>
     );
 }

@@ -13,11 +13,12 @@ export default function Hero() {
           Sites lentos e amadores são o "buraco negro" do seu lucro. Na AlphaPages, criamos máquinas de vendas rápidas e responsivas.{' '}
           <span className="text-yellow-400 font-semibold">O melhor? Você só paga quando o site estiver aprovado e pronto para rodar.</span>
         </p>
-
-        <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 inline-flex items-center gap-2 shadow-lg shadow-yellow-500/20">
-          QUERO PARAR DE PERDER DINHEIRO
-          <ArrowRight size={24} />
-        </button>
+        <a href="https://api.whatsapp.com/send?phone=5581988548132&text=Gostaria%20de%20mais%20informações%20sobre%20as%20landing%20pages" target='_blank'>
+          <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 inline-flex items-center gap-2 shadow-lg shadow-yellow-500/20">
+            QUERO PARAR DE PERDER DINHEIRO
+            <ArrowRight size={24} />
+          </button>
+        </a>
 
         <div className="mt-16 grid grid-cols-3 gap-8 max-w-3xl mx-auto">
           <div>

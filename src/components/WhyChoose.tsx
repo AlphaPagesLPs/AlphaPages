@@ -24,6 +24,7 @@ export default function WhyChoose() {
     }
   ];
 
+ 
   return (
     <section id="why-choose" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black to-yellow-950/5">
       <div className="max-w-7xl mx-auto">
@@ -61,9 +62,11 @@ export default function WhyChoose() {
         </div>
 
         <div className="mt-16 text-center">
+          <a href="#hero">
           <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg shadow-yellow-500/20">
             QUERO COMEÇAR AGORA
           </button>
+          </a>
         </div>
       </div>
     </section>

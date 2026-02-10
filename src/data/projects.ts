@@ -3,12 +3,13 @@ import { Project } from '../types/index';
 export const projects: Project[] = [
     {
         id: '1',
-        title: 'PLearning +',
+        title: 'Learning +',
         description: 'Plataforma de cursos online com foco em marketing digital e vendas.',
         // TODO: Replace with your actual Imgur URL, e.g., 'https://i.imgur.com/abcdef.jpg'
         imageUrl: 'https://i.imgur.com/3ID3Xze.png',
-        tags: ['E-commerce'],
-        category: 'E-commerce',
+        tags: ['Infoprodutos'],
+        category: 'Infoprodutos',
+        siteUrl:'https://learning-applp.vercel.app/'
     },
 
     {
@@ -19,45 +20,50 @@ export const projects: Project[] = [
         imageUrl: 'https://i.imgur.com/ZRo9aaS.png',
         tags: ['Dashboard'],
         category: 'Dashboard',
+        siteUrl:'https://sales-dashboard-frontend-six.vercel.app/'
     },
     {
         id: '3',
         title: 'Infoproduto Masterclass',
-        description: 'Design de alta conversão para cursos',
+        description: 'Plataforma web voltada para a inclusão da comunidade LGBTQIAPN+ no sistema de saúde.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/YvG166g.png',
         tags: ['Infoproducts'],
         category: 'Infoproducts',
+        siteUrl:'https://desafio-tecnico-lacrei-saude.vercel.app/'
     },
 
     {
         id: '4',
-        title: 'Infoproduto Masterclass',
-        description: 'Design de alta conversão para cursos',
+        title: 'Landing Page',
+        description: 'Landing page desenvolvida para promover o tratamento ortodôntico com Invisalign, destacando alinhadores invisíveis modernos e foco em geração de leads.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/ZbS7MxZ.png',
-        tags: ['Infoproducts'],
-        category: 'Infoproducts',
+        tags: ['Landing Page'],
+        category: 'Landing Page',
+        siteUrl:'https://institutodentalsante.com.br/invisalign-piedade/'
     },
 
     {
         id: '5',
-        title: 'Infoproduto Masterclass',
-        description: 'Design de alta conversão para cursos',
+        title: 'Landing Page',
+        description: 'Landing page promovendo serviços de implantes dentários, com foco em atração de pacientes e otimização de conversões.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/YANHptu.png',
-        tags: ['Infoproducts'],
-        category: 'Infoproducts',
+        tags: ['Landing Page'],
+        category: 'Landing Page',
+        siteUrl:'https://institutodentalsante.com.br/implante-piedade/'
     },
 
     {
         id: '6',
-        title: 'Infoproduto Masterclass',
-        description: 'Design de alta conversão para cursos',
+        title: 'Landing Page',
+        description: 'Landing page focada em Harmonização Orofacial (HOF) com layout profissional, comunicação clara e estrutura otimizada para conversão de leads.',
         // TODO: Replace with your actual Imgur URL
         imageUrl: 'https://i.imgur.com/AFpaloL.png',
-        tags: ['Infoproducts'],
-        category: 'Infoproducts',
+        tags: ['Landing Page'],
+        category: 'Landing Page',
+        siteUrl:'https://institutodentalsante.com.br/cp-hof/'
     },
 ];
 
