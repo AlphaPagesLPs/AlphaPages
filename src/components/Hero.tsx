@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="hero" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black via-black to-yellow-950/10">
+    <main id="hero" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black via-black to-yellow-950/10">
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
           Você está gastando fortunas em anúncios para enviar pessoas para um{' '}
@@ -35,6 +35,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </main>
   );
 }

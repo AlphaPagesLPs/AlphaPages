@@ -49,16 +49,16 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">Redes Sociais</h3>
             <div className="flex gap-4 mb-6">
-              <a href="https://www.instagram.com/alphapages_01/" className="p-3 bg-zinc-900 rounded-lg hover:bg-yellow-400 hover:text-black transition-all group">
+              <a href="https://www.instagram.com/alphapages_01/" className="p-3 bg-zinc-900 rounded-lg hover:bg-yellow-400 hover:text-black transition-all group" target='_blank' aria-label="Instagram da AlphaPages">
                 <Instagram size={24} />
               </a>
               
-              <a href="alphapages01@outlook.com" className="p-3 bg-zinc-900 rounded-lg hover:bg-yellow-400 hover:text-black transition-all group">
+              <a href="mailto:alphapages01@outlook.com" target='_blank' className="p-3 bg-zinc-900 rounded-lg hover:bg-yellow-400 hover:text-black transition-all group" aria-label="Enviar e-mail para AlphaPages">
                 <Mail size={24} />
               </a>
             </div>
 
-            <a href="https://api.whatsapp.com/send?phone=5581988548132&text=Gostaria%20de%20mais%20informações%20sobre%20as%20landing%20pages" className="inline-flex items-center gap-2 bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-all">
+            <a href="https://api.whatsapp.com/send?phone=5581988548132&text=Gostaria%20de%20mais%20informações%20sobre%20as%20landing%20pages" className="inline-flex items-center gap-2 bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-all" target='_blank'>
               <MessageCircle size={20} />
               WhatsApp
             </a>

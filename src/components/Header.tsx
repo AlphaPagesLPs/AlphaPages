@@ -41,7 +41,7 @@ export default function Header() {
             </a>
           </nav>
 
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-white">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-white" aria-label="Abrir menu">
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
